@@ -1,3 +1,123 @@
 body{
+    background-color: rgb(3, 2, 2);
+}
+nav{
+    display: flex;
+    margin: 10px 30px;
+    justify-content: space-between;
+    position: fixed;
+}
+.nav-selector{
+    color: white;
     background-color: black;
+    border: none;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.nav-link-one{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.nav-link-one:hover{
+    color: rgb(48, 48, 182);
+}
+.nav-link-two{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 16px;
+    margin-left: 10px;
+}
+.nav-link-two:hover{
+    color: rgb(48, 48, 182);
+}
+.nav-button{
+    color: #fff;
+    background-color: #007AFC;
+    font-size: 14px;
+    border-radius: 24px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+}
+header{
+    padding: 130px 40px 70px 40px;
+}
+.places{
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -.025em;
+    color: #fff;
+    margin-bottom: 24px;
+    max-width: 656px;
+    text-align: center;
+    margin-left: 308px;
+}
+.nav-div-1{
+    margin: 0 213px;
+}
+.powerful-developer{
+    color: #A0AABA;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 32px;
+    max-width: 464px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    margin-left: 433px;
+}
+.mapping-button{
+    color: #fff;
+    background-color: #007AFC;
+    border-radius: 24px;
+    cursor: pointer;
+    border: none;
+    padding: 14px 29px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 519px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.industry{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: .1em;
+    margin-bottom: 60px;
+    color: #fff;
+    margin-left: 511px;
+}
+.company-div-1{
+    margin-bottom: 60px;
+}
+.company-div-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.toyota-image{
+    width: 90px;
+    height: 85px;
+}
+.company-div-3{
+    display: flex;
+    margin-left: 554px;
+}
+.customer-link{
+    font-size: 14px;
+    color: #007AFC;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.right-arrow-icon{
+    width: 15px;
+    height: 15px;
+}
+.customer-link:hover{
+    color: #196bc4;
+    margin-right: 10px;
 }
