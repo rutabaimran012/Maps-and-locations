@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(3, 2, 2);
-    font-family: 'Cera pro','Trebuchet MS',sans-serif;;
+    background-color: #0f1012;
+    font-family: 'Cera pro','Trebuchet MS',sans-serif;
+    
 }
 nav{
     display: flex;
@@ -140,7 +141,7 @@ header{
     margin-bottom: 24px;
     font-weight: 400;
     letter-spacing: -.01em;
-    width: 42%;
+    width: 41%;
 }
 .explore-link-div{
     display: flex;
@@ -148,3 +149,186 @@ header{
     border-right: 2px solid gray;
     padding: 1px 0 1px 1px;
 }
+.google-map{
+    display: flex;
+    padding: 90px 40px;
+}
+.google-map-image{
+     width: 655px;
+     height: 489px;
+}
+.mapbox-search-vision-heading{
+    font-size: 44px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    margin-bottom: 24px;
+    margin-left: 78px;
+    margin-top: 106px;
+}
+.mapbox-search-vision-paragraph{
+    color: #A0AABA;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    width: 531px;
+    margin-left: 78px;
+}
+.maps{
+    padding: 70px 40px 90px 40px;
+}
+.global-map-image{
+    width: 760px;
+    height: 582px;
+    margin-left: -149px;
+    margin-top: 29px;
+}
+.straightaway{
+    padding: 90px 40px;
+}
+.current-location-image{
+    width: 670px;
+    height: 504px;
+    margin-left: 148px;
+}
+.straightaway-div-1{
+    display: flex;
+    padding-left: 60px;
+    background-color: #171C1F;
+    border-radius: 17px;
+}
+.showcase-heading{
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #2fc078;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: .1em;
+    margin-bottom: 32px;
+}
+.straightaway-paragraph{
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-size: 20px;
+    line-height: 32px;
+    color: #A0AABA;
+    margin-bottom: 28px;
+    width: 88%;
+}
+.straightaway-div-2{
+    margin-top: 116px
+}
+.cars-image{
+    width: 614px;
+    height: 304px;
+}
+.vision-heading{
+    font-size: 44px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    margin-bottom: 24px;
+    margin-left: 113px;
+    margin-top: -2px;
+}
+.vision-paragraph{
+    color: #A0AABA;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    width: 524px;
+    margin-left: 113px;
+}
+.road-map{
+    width: 614px;
+    height: 410px;
+}
+.data-paragraph{
+    color: #A0AABA;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    width: 82%;
+}
+.multiple-images{
+    width: 683px;
+    height: 374px;
+}
+.atlas-heading{
+    font-size: 44px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    margin-bottom: 24px;
+    margin-left: 65px;
+}
+.atlas-paragraph{
+    color: #A0AABA;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    width: 484px;
+    margin-left: 65px;
+}
+.ready{
+    background-color: #171C1F;
+    border-radius: 17px;
+    padding: 80px;
+    text-align: center;
+}
+.ready-heading{
+    font-size: 44px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    margin-bottom: 16px;
+}
+.ready-paragraph{
+    font-size: 20px;
+    line-height: 32px;
+    color: #A0AABA;
+    max-width: 800px;
+    margin-bottom: 37px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    margin-left: 151px;
+}
+.ready-button-one{
+    padding: 12px 20px;
+    border-radius: 100px;
+    background-color: #007afc;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.ready-button-two{
+    padding: 14px 26px;
+    border-radius: 100px;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid gray;
+}
+
