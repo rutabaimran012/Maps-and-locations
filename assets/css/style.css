@@ -1,5 +1,6 @@
 body{
     background-color: rgb(3, 2, 2);
+    font-family: 'Cera pro','Trebuchet MS',sans-serif;;
 }
 nav{
     display: flex;
@@ -57,17 +58,17 @@ header{
     margin-left: 308px;
 }
 .nav-div-1{
-    margin: 0 213px;
+    margin: 0 210px;
 }
 .powerful-developer{
     color: #A0AABA;
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 32px;
-    max-width: 464px;
+    max-width: 512px;
     font-weight: 400;
     letter-spacing: -.01em;
-    margin-left: 433px;
+    margin-left: 388px;
 }
 .mapping-button{
     color: #fff;
@@ -120,4 +121,30 @@ header{
 .customer-link:hover{
     color: #196bc4;
     margin-right: 10px;
+}
+.nav-maps-data-heading{
+    font-size: 44px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    margin-bottom: 24px;
+}
+.navigation{
+    padding: 90px 40px 84px 40px;
+}
+.nav-maps-data-paragraph{
+    color: #A0AABA;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    width: 42%;
+}
+.explore-link-div{
+    display: flex;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    padding: 1px 0 1px 1px;
 }
